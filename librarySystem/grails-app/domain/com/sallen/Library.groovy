@@ -10,6 +10,10 @@ class Library {
 
 	static hasMany = [books:Book, students:Student, librarians:Librarian]
 
+	String toString(){
+		"$building"
+	}
+
     static constraints = {
 
 	building blank:false, nullable:false

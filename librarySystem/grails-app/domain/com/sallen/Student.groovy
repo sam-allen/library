@@ -12,6 +12,10 @@ class Student {
 
 	static hasMany = [books:Book, bookReviews:BookReview]
 
+	String toString(){
+		"$name"
+	}
+
     static constraints = {
 
 	name blank:false, nullable:false

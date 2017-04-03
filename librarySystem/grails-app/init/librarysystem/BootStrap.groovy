@@ -3,6 +3,7 @@ package com.sallen
 class BootStrap {
 
     def init = { servletContext ->
+/*
 def library1=new Library(
 	building:'Owen',
 	address:'31 Cheese Street',
@@ -128,6 +129,7 @@ def bookreview2=new BookReview(
 ).save()
 //book2.addToBookReviews(bookreview2)
 //student2.addToBookReviews(bookreview2)
+*/
 
     }
     def destroy = {

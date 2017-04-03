@@ -12,7 +12,11 @@ class Book {
 	Boolean overdue
 	Library library
 
-	static hasMany = [bookReviews:BookReview]	
+	static hasMany = [bookReviews:BookReview]
+
+	String toString(){
+		"$title"
+	}	
 
     static constraints = {
 
