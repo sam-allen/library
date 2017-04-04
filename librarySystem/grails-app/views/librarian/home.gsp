@@ -77,7 +77,7 @@
 
 		<button type="button" class="btn btn-success">
 
-			<g:link controller="student" action="search">Search</g:link>
+			<g:link controller="librarian" action="search">Search</g:link>
 		
 		</button>
 
