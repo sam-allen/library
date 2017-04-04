@@ -34,6 +34,7 @@
                     <g:pageProperty name="page.nav" />
                 </ul>
             </div>
+		<g:loginToggle/>
         </div>
     </div>
 
