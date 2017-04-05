@@ -17,7 +17,7 @@
 
 		<h3>Courses Management</h3>
 
-	<p>Lorem Ipsum</p>
+	<p>Add a Course</p>
 
 		<button type="button" class="btn btn-success">
 
@@ -31,7 +31,7 @@
 
 		<h3>Book Management</h3>
 
-	<p>Lorem Ipsum</p>
+	<p>Add a Book</p>
 
 		<button type="button" class="btn btn-success">
 
@@ -45,7 +45,7 @@
 
 		<h3>Student Enrolment</h3>
 
-	<p>Lorem Ipsum</p>
+	<p>Add a Student</p>
 
 		<button type="button" class="btn btn-success">
 
@@ -59,7 +59,7 @@
 
 		<h3>Librarian Management</h3>
 
-	<p>Lorem Ipsum</p>
+	<p>Add a Librarian</p>
 
 		<button type="button" class="btn btn-success">
 
@@ -73,7 +73,7 @@
 
 		<h3>Search</h3>
 
-	<p>Lorem Ipsum</p>
+	<p>Search for a Student</p>
 
 		<button type="button" class="btn btn-success">
 

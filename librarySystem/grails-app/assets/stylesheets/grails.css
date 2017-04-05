@@ -39,12 +39,16 @@ pre {
     font-size: 18px !important;
     text-decoration: none;
 }
+
+.navbar-default a.btn {
+	color:#000 !important;
+}
 .grails-icon img {
     width: 40px;
 
 }
 .navbar-default, .navbar-static-top {
-    background-color: #4D8618;
+    background-color: #ea831c;
     border: 0px;
 }
 a.navbar-brand {
@@ -432,14 +436,16 @@ h8 {
 }
 
 #footer {
-    background: #f2f2f2;
+    background: #ea831c;
     text-align: center;
     font-size: 14px;
     padding: 20px 0 30px;
     margin-top: 30px;
     color: #AAA
 }
-
+.books img {
+width: 100%;
+}
 #footer .col-right {
     float: right;
     width: 300px;

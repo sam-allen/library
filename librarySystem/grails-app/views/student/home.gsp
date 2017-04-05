@@ -17,7 +17,7 @@
 
 		<h3>Add Review</h3>
 
-	<p>Lorem Ipsum</p>
+	<p>Add a Review for a Book</p>
 
 		<button type="button" class="btn btn-success">
 
@@ -31,7 +31,7 @@
 
 		<h3>List Reviews</h3>
 
-	<p>Lorem Ipsum</p>
+	<p>List all Reviews for a Book</p>
 
 		<button type="button" class="btn btn-success">
 
@@ -45,7 +45,7 @@
 
 		<h3>Book Details</h3>
 
-	<p>Lorem Ipsum</p>
+	<p>List all Book details</p>
 
 		<button type="button" class="btn btn-success">
 
@@ -60,7 +60,7 @@
 
 		<h3>Search</h3>
 
-	<p>Lorem Ipsum</p>
+	<p>Search for a Book</p>
 
 		<button type="button" class="btn btn-success">
 
