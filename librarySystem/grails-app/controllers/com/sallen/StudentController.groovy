@@ -26,20 +26,25 @@ class StudentController {
 		redirect(uri:'/')
 	}
 
+	
 	def search(){
 	
 	}
 	
-	def results(String name){
+	def results(){
 
-	
-	def students=Student.where{
-		name=~name
-	}.list()
+	def bookProps = Book.metaClass.properties*.name
+	def books = Book.withCriteria {
+		"${params.queryType}" {	
+			params.each { field,value ->
+				if (bookProps.grep(field)&& value) {
+					ilike(field, value)
+				}
+			}
+		}
+	}
 
-	return [students:students,
-		term:params.name,
-		totalStudents:Student.count()]
+	return [books:books]
 	}
 
 }
