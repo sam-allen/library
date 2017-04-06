@@ -15,8 +15,10 @@ class LibrarySpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void intValidLibrary() {
+        when: "A library is created with studySpaces"
+        def library = new Library (building:'Adsetts', studySpaces:'IT')
+	then: "Validation test should fail"
+	!library.validate()
     }
 }

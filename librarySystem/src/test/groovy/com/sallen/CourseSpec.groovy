@@ -15,8 +15,17 @@ class CourseSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void maxSizeValidCourse() {
+        when: "A course is created with a title and a code"
+        def course = new Course (title:'Computing', code:'3333333333')
+	then: "Validation test should fail"
+	!course.validate()
+    }
+	
+    void sizeValidCourse() {
+        when: "A course is created with a title and a studyMode"
+        def course = new Course (title:'Computing', studyMode:'0000000000000000000000000')
+	then: "Validation test should fail"
+	!course.validate()
     }
 }

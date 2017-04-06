@@ -15,8 +15,10 @@ class LibrarianSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void emailValidLibrarian() {
+        when: "A librarian is created with a email and name"
+        def librarian = new Librarian (name:'Shane Allen', email:'sallen.yahoo.com')
+	then: "Validation test should fail"
+	!librarian.validate()
     }
 }

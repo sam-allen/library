@@ -15,8 +15,10 @@ class BookReviewSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+     void dateValidBookReview() {
+        when: "A book review is created with a book name and date published"
+        def bookReview = new BookReview (book:'Computing for dummies', datePublished:'test')
+	then: "Validation test should fail"
+	!bookReview.validate()
     }
 }
